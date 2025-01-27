@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 8%);
+    font-family: "inter" , sans-serif;
+   }
+
+html{
+    font-size: 14px;
+   }
+   
+header {
+    padding-top:1rem;
+}
+
+.container{   
+    width: 25rem;
+    height: 40rem;
+    padding: 2rem;
+    text-align: center;
+    background-color:hsl(0, 0%, 12%);
+    border-radius: 1rem;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+   }
+
+.button {
+    width: 20rem;
+    height: 1rem;
+    padding: 1rem;  
+    margin: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    background-color:hsl(0, 0%, 20%);
+    border-radius: .5rem;  
+    cursor: pointer;
+    text-decoration: none;
+    display:block;
+    color:hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+li {
+    list-style-type: none; 
+}
+
+.button:hover {
+    background-color: hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%);
+}
+
+.button:focus{
+    background-color: hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%);
+    outline:none;
+}
+
+.button:active{
+    background-color: hsl(75, 94%, 57%);
+}
+ 
+ul {
+   padding: 0;
+}
+
+img {
+   border-radius: 360rem;
+   width:8rem;
+}
+
+#name ,#introduction {  
+   color:hsl(0, 0%, 100%);
+}
+
+#name {
+   font-weight:700;
+   line-height:.8rem;
+}
+
+#location {
+   color: hsl(75, 94%, 57%);
+   font-weight: 400; 
+}
+
+#introduction{
+   font-weight: 600;
+   line-height: 2.5rem;
+}
+
+.attribution ,a{ 
+   font-size: 11px; 
+   text-align: center; 
+   color: hsl(228, 45%, 44%); 
+   margin-top:49rem;
+    
+}
