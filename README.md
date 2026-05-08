@@ -34,14 +34,22 @@ Users should be able to:
 - CSS custom properties
 
 ### What I learned
+### What I Learned
 
-I was not able to align <ul> elements which has link buttons as shown in the preview.There was always space on the left side of the buttons.After searching online came across these lines-
-"The <ul> and <ol> elements have a top and bottom margin of 16px ( 1em ) and a padding-left of 40px ( 2.5em ). If the directionality attribute dir is set to right-to-left ( rtl ) for ul and ol elements, in that case padding-right comes into effect and its default value is 40px ( 2.5em ). "
-so I set padding of <ul> to zero.This aligned link buttons properly.
+While styling my project, I noticed that the `<ul>` element containing the link buttons was not aligning properly. There was always extra space on the left side of the buttons.
 
+After researching online, I learned that `<ul>` and `<ol>` elements have default browser styles, including left padding and margins. By default, `<ul>` has a `padding-left` value, which was causing the unwanted spacing.
+
+To fix the issue, I removed the default padding by setting it to `0`.
+
+```css
 ul {
-   padding: 0;
+  padding: 0;
 }
+```
+
+This aligned the link buttons properly and helped me understand how default browser styles can affect layout and positioning.
+
 
 ### Continued development
 I look forward to doing projects based on box model,flexbox,grid to get a better understanding of these concepts.
